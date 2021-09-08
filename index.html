@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Har Dey</title>
+</head>
+<style>
+body{
+  padding: 0;
+  margin: 0;
+  background-color: floralwhite;
+}
+
+/* ------ Header Section ----- */
+#header {
+  
+}
+
+/* -------- Header Animation ------ */
+#headertext{
+  margin-top: 30px;
+  color: blue;
+  margin-left: 15px;
+  margin-bottom: 0;
+  font-size: 50px;
+  animation: head-ani 5s infinite;
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes head-ani {
+  0% { color: blue;}
+  
+  25% { color: green;}
+  
+  50% { color: red; }
+  
+  75% { color: yellow; }
+  
+  100% { color: purple; }
+  
+}
+  
+@keyframes head-ani {
+  0% { color: blue;}
+  
+  25% { color: green;}
+  
+  50% { color: red; }
+  
+  75% { color: yellow; }
+  
+  100% { color: purple; }
+
+}
+
+.tagline {
+  margin-top: 0;
+  margin-left: 25px;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+/* ------- Navigation bar ------ */
+#navbtn{
+  background-color: blue;
+  overflow: hidden;
+}
+
+#navbtn a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  float: left;
+  padding: 8px 10px;
+  color: white;
+  margin: 5px  8px;
+
+}
+
+#navbtn a:hover {
+  background-color: floralwhite;
+  color: green;
+}
+
+#navbtn a:active{
+  background-color: red;
+  color: white;
+  
+}
+
+/* ------------ Search Section ------------- */
+.search-bar{
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  
+}
+
+input{
+  padding: 4px;
+  font-size: 15px;
+  
+}
+
+input.search-box{
+  width: 350px;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: floralwhite;
+  color: blue;
+  font-weight: bolder;
+  padding-left: 8px;
+
+}
+
+input#search-btn {
+  border: 2px solid red;
+  color: white;
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input#search-btn:hover {
+  border: 2px solid white;
+  color: red;
+  background-color: white;
+
+}
+
+/* ------- Slideshow Section ------ */
+   
+
+
+.avater{
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 70%;
+}
+
+
+/* ------- Content Section ------- */
+h2.context{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+hr#contline{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+p.info{
+  margin: 3px 80px;
+  text-align: justify;
+  font-size: 19px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-spacing: 5px;
+  margin-top: 3px;
+}
+
+/* ------- Gallery Section -------- */
+.gallery{
+  margin: 35px;
+  
+}
+
+
+img#top-img {
+  width: 1200px;
+  height: 500px;
+  
+}
+
+img#bottom-img{
+  width: 600px;
+  height: 350px;
+}
+
+/* --------- Author Section -------------- */
+h2.author{
+  margin-left: 15px;
+  margin-bottom: 0;
+  font-weight: bolder;
+  font-size: 30px;
+  color: red;
+
+}
+
+.avater{
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+h2.author-name{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+p.author-post{
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 4px;
+  font-style: italic;
+  color: blue;
+}
+
+.infocont{
+  background-color: white;
+  border: 5px solid red;
+  margin: 0 40px;
+  padding: 0 8px;
+}
+
+ul{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 38px;
+  color: blue;
+  margin-top: 0;
+}
+
+button{
+  float:  right;
+  color: aliceblue;
+  background-color: green;
+  padding: 7px;
+  margin-right: 30px;
+  margin-top: 15px;
+  font-size: 14px;
+  border: none;
+  margin-bottom: 10px;
+
+}
+
+button:hover{
+  background-color: aliceblue;
+  color: green;
+  border: 1px solid green;
+}
+
+/* ---------- Footer Section --------------   */
+#footline{
+  margin-top: 50px;
+
+}
+
+.footer{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding: 0 10px;
+}
+
+h3{
+  font-style: italic;
+}
+h3.Copright{
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: bolder;
+  
+}
+
+h4{
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0;
+  margin-bottom: 5px;
+  background-color: red;
+  color: whitesmoke;
+  padding: 8px;
+}
+
+#bottom-nav a{
+  margin-top: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 7px;
+  font-weight: bolder;
+  color: blue;
+}
+
+#bottom-nav a:hover{
+  color: red;
+  cursor: pointer;
+}
+
+/* ---------- Other Pages ---------- */
+#under-const{
+  background-color: red;
+}
+#link{color: teal;background-color:thistle;font-size: 20px;}
+
+input{
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+</style>
+</head>
+<body>
+  <div id="navbtn" >
+    <a id="top" href="index.html">Home</a>
+    <a href="about me.html">About me</a>
+    <a href="News.html">News</a>
+    <a href="contact me.html">Contact me</a>
+    <input type="search" placeholder="Enter to search">
+    <input type="button" value="Search"/></div>
+    <a id="Har dey"></a>
+        <center><h2>Har dey's Blog</h2></center>
+        <hr>
+        <div id="HARDEY"><marquee behaviour="alternate"scrollamount 20 ><p><b>Welcome to Hardey's blog</b></p></div></marquee>
+        <center><p><img class="avater" src="images/IMG-20210825-WA0004.jpg"height="500px" width="900px"></p></center>
+    </h3>
+    <body>
+      <center><img src="images/images (20).jpg"></center>
+        <div id="slide-show">
+        <div class="slide-cont">
+        <div class="slide-img">
+        <img src="images/images (21).jpg" height="400px" width="600px">
+        
+        
+        
+        <img src="images/images (19).jpg"height="400px" width="500px">
+        
+        
+        
+        <p style="text-align:center;"><img src="images/images (18).jpg"height="400px" width="800px" ></p>
+         </div>     
+        </div>
+      </div>
+<video src="video/videoplayback (3).mp4" controls>Your Zakat Help in the Course of Allah</video>
+<a href="#top"><button>Back to top</button></a>
+<div id="link">Useful link</div>
+<a href="index.html"><button>Home</button></a> 
+        <a href="about me.html"><button>About me</button></a>
+        <a href="News.html"><button> News </button></a>
+        <a href="contact me.html"><button>Contact me</button></a>
+
+
+
+</body>
+
+
+
+</html>
